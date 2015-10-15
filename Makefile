@@ -42,7 +42,7 @@ endif
 
 .PHONY: all compile doc clean test shell distclean pdf get-deps rebuild dialyzer typer
 
-all: compile doc test
+all: compile
 
 rebuild: distclean deps compile dialyzer test
 
